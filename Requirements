@@ -45,7 +45,7 @@ one university, multiple adoptions, and multiple messages.
 book_id.  There are four record sets that can be saved to csv files.  (If you are not sure about the csv files and their columns, contact the instructor.)
 Create a separate functions for each of the four csv file.
 5. Create a function that accepts a state name (e.g. Illinois) and it will display the list of universities in that state
-6. Create a function that lists all the categories of books and accepts a user's choice (e.g. 'Business') and saves the list of titles  
+6. Create a function that lists all  the categories of books and accepts a user's choice (e.g. 'Business') and saves the list of titles  
 books in that category to a textfile.
 7. Once the functions are created, demonstrate any one function, and describe the logic of code you used as a screencast video.
 Submit your github repository link as the assignment.

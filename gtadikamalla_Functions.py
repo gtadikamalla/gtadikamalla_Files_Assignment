@@ -5,12 +5,14 @@ import csv
 def load_json_from_folder():
     while True:
         try:
+            cwd=os.getcwd()
+            print(cwd)
             folder_name = input("Please enter the folder name where the 'gtadikamalla_adoptions.json' file is located: ")
 
             if folder_name in '':
                 raise FileNotFoundError(f"The folder name should not be empty. Please try again.")
             
-            cwd=os.getcwd()
+            
             current_folder=os.path.basename(cwd)
 
             if folder_name.lower().replace(' ','') in current_folder.lower().replace(' ',''):
